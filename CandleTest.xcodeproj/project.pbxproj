@@ -21,6 +21,8 @@
 		F3519DD6242A8A9C00A7213D /* Strings+ConvertCGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3519DD5242A8A9C00A7213D /* Strings+ConvertCGFloat.swift */; };
 		F366F5092429385C00242FD6 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F366F5082429385C00242FD6 /* WebSocketManager.swift */; };
 		F366F50E242945E200242FD6 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F366F50D242945E200242FD6 /* DataHandler.swift */; };
+		F3D77E1E243D338D00AAE34D /* darkScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D77E1C243D338D00AAE34D /* darkScreenshot.png */; };
+		F3D77E1F243D338D00AAE34D /* lightScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D77E1D243D338D00AAE34D /* lightScreenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		F3519DD5242A8A9C00A7213D /* Strings+ConvertCGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+ConvertCGFloat.swift"; sourceTree = "<group>"; };
 		F366F5082429385C00242FD6 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
 		F366F50D242945E200242FD6 /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		F3D77E1C243D338D00AAE34D /* darkScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkScreenshot.png; sourceTree = "<group>"; };
+		F3D77E1D243D338D00AAE34D /* lightScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightScreenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 		F34AC69F2427768E005267BF = {
 			isa = PBXGroup;
 			children = (
+				F3D77E1B243D338D00AAE34D /* ReadmeFiles */,
 				F34AC6AA2427768E005267BF /* CandleTest */,
 				F34AC6A92427768E005267BF /* Products */,
 				97F6D87BB56EEDAAD49E0534 /* Pods */,
@@ -144,6 +149,15 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		F3D77E1B243D338D00AAE34D /* ReadmeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F3D77E1C243D338D00AAE34D /* darkScreenshot.png */,
+				F3D77E1D243D338D00AAE34D /* lightScreenshot.png */,
+			);
+			path = ReadmeFiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -204,7 +218,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D77E1F243D338D00AAE34D /* lightScreenshot.png in Resources */,
 				F34AC6B82427768F005267BF /* LaunchScreen.storyboard in Resources */,
+				F3D77E1E243D338D00AAE34D /* darkScreenshot.png in Resources */,
 				F34AC6B52427768F005267BF /* Assets.xcassets in Resources */,
 				F34AC6B32427768E005267BF /* Main.storyboard in Resources */,
 			);

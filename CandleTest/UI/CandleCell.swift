@@ -24,7 +24,7 @@ class CandleCell: UICollectionViewCell {
 
         addSubview(bodyView)
         
-        shadowView.backgroundColor = .black
+        shadowView.backgroundColor = .label
         insertSubview(shadowView, at: 0)
     }
     
